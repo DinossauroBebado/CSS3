@@ -37,10 +37,12 @@ The declaration block contains one or more declarations separated by semicolons.
 Each declaration includes a CSS property name and a value, separated by a colon.
 Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.*/
 
-  /* h1 {
-    color: blue;
-    font-size: 12px;
-  } */
+/* h1 {
+  color:blue ;
+  font-size: 12px;
+
+
+} */
 
 /*===========================================================================================================================================*/
 
@@ -61,7 +63,14 @@ We can divide CSS selectors into five categories:
   4. Pseudo-elements selectors (select and style a part of an element)
   5. Attribute selectors (select elements based on an attribute or attribute value) */
 
+  p#paragraphid {
+    color : purple ;
+  }
 
+  p.classstyle,h1.classstyle{
+    color: red;
+    font-size: 2em;
+  }
 
 
 
@@ -78,11 +87,34 @@ We can divide CSS selectors into five categories:
 
 */
 
+h1#color1{
+  color: tomato;
+}
 
+h1#color2{
+  color: dodgerblue;
+}
 
+h1#color3{
+  color:gray;
+}
 
+h1#color4{
+  color: orange;
+}
 
+h1#rgb{
+  color:rgb(5, 79, 181);
+}
 
+h1#hex{
+  color: #7e10c7;
+}
+
+h1#hsl{
+  color: hsl(13, 85%, 42%);
+
+}
 
 /*===========================================================================================================================================*/
 
@@ -348,7 +380,7 @@ We can divide CSS selectors into five categories:
 
     The default display value for most elements is block or inline. */
 
-     
+
 
 /*===========================================================================================================================================*/
 
