@@ -124,6 +124,15 @@ h1#hsl{
 
     CSS background properties are used to add background effects for elements. */
 
+    h1#background{
+        background: blue ;
+        /* background-color: red ; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-image: image();
+
+    }
 
 
 
@@ -139,24 +148,61 @@ h1#hsl{
 
     /* dotted - Defines a dotted border */
 
+    p#borders1 {
+        border-style: dotted;
+
+    }
+
     /* dashed - Defines a dashed border */
+    p#borders2 {
+        border-style: dashed;
 
+    }
     /* solid - Defines a solid border */
+    p#borders3 {
+        border-style: solid;
 
+    }
     /* double - Defines a double border */
+    p#borders4{
+        border-style: double;
 
+    }
     /* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
+    p#borders5 {
+        border-style: groove;
+        border-color: blue;
 
+    }
     /* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
+    p#borders6 {
+        border-style: ridge;
+          border-color: blue;
 
+    }
     /* inset - Defines a 3D inset border.  The effect depends on the border-color value */
+    p#borders7 {
+        border-style: inset;
+          border-color: blue;
 
+    }
     /* outset - Defines a 3D outset border.  The effect depends on the border-color value */
+    p#borders8 {
+        border-style : outset;
+          border-color: blue;
 
+    }
     /* none - Defines no border */
+    p#borders9 {
+        border-style:none;
 
+
+    }
     /* hidden - Defines a hidden border */
+    p#borders10 {
+        border-style: hidden;
 
+    }
 
 
 /*===========================================================================================================================================*/
@@ -179,7 +225,16 @@ h1#hsl{
 
 
     /* margin-top */
+    div.margin1{
+      margin-top: 20px ;
+      margin-left: 30px;
+      margin-right: 50px;
+      margin-bottom: 40px;
+      background-color: black ;
+      height: 500px;
+      width: 500px;
 
+    }
 
     /* margin-right */
 
