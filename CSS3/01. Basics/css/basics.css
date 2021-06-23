@@ -225,6 +225,15 @@ h1#hsl{
 
 
     /* margin-top */
+
+
+    /* margin-right */
+
+
+    /* margin-bottom */
+
+
+    /* margin-left */
     div.margin1{
       margin-top: 20px ;
       margin-left: 30px;
@@ -235,15 +244,6 @@ h1#hsl{
       width: 500px;
 
     }
-
-    /* margin-right */
-
-
-    /* margin-bottom */
-
-
-    /* margin-left */
-
 
 
 /*===========================================================================================================================================*/
@@ -264,7 +264,15 @@ h1#hsl{
 
     /* padding-left */
 
-
+    div.padding{
+      padding-top: 50px ;
+      padding-right: 100px;
+      padding-left: 50px;
+      padding-bottom: 200px;
+      width: 500px;
+      height: 150px;
+      background: orange;
+    }
 
 /*===========================================================================================================================================*/
 
@@ -291,7 +299,13 @@ h1#hsl{
 
     inherit - The height/width will be inherited from its parent value. */
 
+    div.hw{
+      width: auto;
+      /* width: 20% ; */
+      height: 200px;
+      background-color: purple ;
 
+    }
 
 /*===========================================================================================================================================*/
 
@@ -316,7 +330,16 @@ h1#hsl{
 
     The box model allows us to add a border around elements and to define space between elements */
 
+    div.boxmodel{
+        width: 30px;
+        height: 30px;
 
+        border: 5px  solid gray ;
+
+        padding: 150px;
+
+        margin: 50px;
+    }
 
 /*===========================================================================================================================================*/
 
@@ -325,7 +348,17 @@ h1#hsl{
 -------------------
 
     An outline is a line that is drawn around elements, OUTSIDE the border, to make the element "stand out"*/
+p.outline1{
+        outline-style: dashed;
 
+
+}
+
+p.outline2{
+
+    outline-style: dotted;
+
+}
 
 
 
