@@ -370,7 +370,12 @@ p.outline2{
 
       /*
       CSS has a lot of properties for formatting text. */
-
+      h1#text1{
+        color : blue ;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+      }
 
 
 
@@ -388,6 +393,10 @@ p.outline2{
     browsers/operating systems.  Start with the font you want, and end with a generic family (to let the browser pick a similar
     font in the generic family, if no other fonts are available).  The font names should be separated with a comma. */
 
+    body{
+      font-family: 'Roboto', sans-serif;
+      /* font-family: monospace,sans-serif; */
+    }
 
 
 /*===========================================================================================================================================*/
