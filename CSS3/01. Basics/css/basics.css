@@ -437,8 +437,19 @@ p.outline2{
     a:hover - a link when the user mouses over it
     a:active - a link the moment it is clicked*/
 
+    a:link{
+      color:red ;
+    }
 
-
+    a:visited{
+      color: green;
+    }
+    a:hover{
+      color : blue ;
+    }
+    a:active{
+      color : orange ;
+    }
 
 /*===========================================================================================================================================*/
 
@@ -447,7 +458,13 @@ p.outline2{
 -------------------
 
     The list-style-type property specifies the type of list item marker. */
+    ul{
+      list-style-type: circle;
+    }
 
+    ol{
+      list-style-type: square;
+    }
 
 
 
@@ -462,6 +479,11 @@ p.outline2{
 
     Tables with CSS */
 
+    table,tr,td{
+      border: 1px solid blue ;
+      width: 100%;
+
+    }
 
 
 
@@ -477,6 +499,9 @@ p.outline2{
 
     The default display value for most elements is block or inline. */
 
+    li.display{
+      display: inline;
+    }
 
 
 /*===========================================================================================================================================*/
