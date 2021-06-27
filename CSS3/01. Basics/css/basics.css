@@ -510,7 +510,13 @@ p.outline2{
 /* 20. Max-Width
 -------------------
 
-    Using Max-Width with css
+    Using Max-Width with css*/
+
+    div.max{
+      max-width: 500px;
+      margin: auto;
+      border: 3px solid black ;
+    }
 
 /*===========================================================================================================================================*/
 
