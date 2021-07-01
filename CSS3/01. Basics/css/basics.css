@@ -692,6 +692,19 @@ div.center{
     3. adjacent sibling selector (+)
     4. general sibling selector (~) */
 
+    div p {
+      background: blue;
+    }
+    div > p {
+      background: dodgerblue;
+    }
+    div + p {
+      background: orange;
+    }
+    div ~ p {
+      background: tomato;
+    }
+
 /*===========================================================================================================================================*/
 
 
