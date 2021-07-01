@@ -668,7 +668,14 @@ span.c{
     Use CSS to align the content */
 
 /*===========================================================================================================================================*/
-
+div.center{
+  margin:auto;
+  width: 50px ;
+  height: 200px ;
+  padding: 10px ;
+  border: 1px solid blue ;
+  background: dodgerblue ;
+}
 
 /* 26. Combinators
 -------------------
