@@ -714,6 +714,16 @@ div.center{
     Pseudo-classes can be combined with CSS classes. */
 
 /*===========================================================================================================================================*/
+div.hover{
+  background: green;
+  width: 100px;
+  height: 50px;
+}
+div.hover:hover{
+  background: blue;
+}
+
+
 
 
 /* 28. Pseudo element
@@ -723,7 +733,9 @@ div.center{
 
 
 /*===========================================================================================================================================*/
-
+p.pseudo::first-line{
+  color:white;
+}
 
 /* 29. Opacity
 -------------------
@@ -731,7 +743,9 @@ div.center{
     The opacity property specifies the opacity/ transparency of an element */
 
 /*===========================================================================================================================================*/
-
+img#google:hover{
+  opacity: 0.5;
+}
 
 /* 30. Navigation Bar
 -------------------
