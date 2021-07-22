@@ -792,7 +792,9 @@ img#google:hover{
     The [attribute] selector is used to select elements with a specified attribute. */
 
 /*===========================================================================================================================================*/
-
+a[target]{
+  background: yellow;
+}
 
 /* 35. Forms
 -------------------
