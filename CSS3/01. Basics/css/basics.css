@@ -826,7 +826,7 @@ input[type=submit]:hover{
 div.form{
   border-radius: 5px;
   background: lightgrey;
-  padding: 22px;
+  padding: 20px;
 
 }
 /*===========================================================================================================================================*/
@@ -837,7 +837,7 @@ div.form{
 
     CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules.
     Counters let you adjust the appearance of content based on its placement in the document. */
-
+ /* mano que aula bosta */
 
 /*===========================================================================================================================================*/
 
