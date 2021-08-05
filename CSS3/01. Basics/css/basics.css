@@ -899,3 +899,9 @@ div.form{
 
     In face, if you use the !important rule, it will override ALL previous styling rules for that
     specific property on that element! */
+
+    p.importante{
+
+      background: RED;
+      background: dodgerblue !important;
+    }
