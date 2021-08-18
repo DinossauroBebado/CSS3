@@ -1,3 +1,47 @@
-body {
+div.border-radius{
+    width: 200px;
+    height: 100px;
+    background: dodgerblue;
+    border-radius: 25px;
+}
+
+p#border-img{
+  border:10px solid transparent;
+  padding: 15px;
+  border-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/cb208be7dd3f15c6831d98c1a36b441c.jpg) 30 round;
+}
+div.gradient-tb{
+  height: 100px;
+  background-color: red;
+  background-image: linear-gradient(dodgerblue,orange);
+  background-image: linear-gradient(to right,dodgerblue,green);
+}
+
+h1#shadows{
+  text-shadow: 2px 2px 5px dodgerblue ;
+}
+
+div.transitions{
+  width: 100px;
+  height: 100px;
+  background: dodgerblue;
+  transition: width 2s;
+
+}
+
+div.transitions:hover{
+  width: 200px;
+}
+
+div.animation{
+  width: 100px;
+  height: 100px;
   background: red;
+  animation-name: first;
+  animation-duration: 4s;
+}
+
+@keyframes first {
+  from{background: green;}
+  to{background: dodgerblue;}
 }
