@@ -83,3 +83,35 @@ div.animation{
 .button:hover{
   background: green;
 }
+
+.pagination{
+  display: inline-block;
+}
+
+.pagination a {
+  color:  black;
+  float: left;
+  padding: 8px 16px ;
+  text-decoration: none;
+}
+.pagination a:hover{
+  color: dodgerblue;
+}
+
+body{
+  background: pink;
+}
+
+@media screen and (min-width:480px){
+  body{
+    background: green;
+  }
+}
+
+@media screen and (min-width:768px) {
+
+  body{
+    background: dodgerblue;
+  }
+
+}
