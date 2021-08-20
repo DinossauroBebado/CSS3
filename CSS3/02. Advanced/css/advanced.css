@@ -99,7 +99,7 @@ div.animation{
 }
 
 body{
-  background: pink;
+  background: blue;
 }
 
 @media screen and (min-width:480px){
