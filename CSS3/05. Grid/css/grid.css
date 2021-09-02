@@ -10,6 +10,7 @@
   padding: 10px;
 }
 .grid-item{
+  grid-column: 1 / span: 3 ;
   background: dodgerblue;
   border : 1px solid black;
   padding: 20px;
